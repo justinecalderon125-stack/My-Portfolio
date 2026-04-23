@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(180deg, #071524, #0b1a2b);
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+/* HERO HEADER */
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #102a43;
+    border-bottom: 2px solid #63b3ed;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 20px;
+    border: 3px solid #63b3ed;
+    margin-bottom: 12px;
+    transition: 0.3s ease;
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+/* MAIN CONTAINER */
+.container {
+    max-width: 950px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+/* CARD DESIGN */
+.card {
+    background: rgba(16, 42, 67, 0.9);
+    border: 1px solid #1f3b57;
+    border-radius: 15px;
+    padding: 22px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    border-color: #63b3ed;
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(99, 179, 237, 0.2);
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* HEADINGS */
+h2 {
+    color: #63b3ed;
+    margin-top: 0;
+    border-left: 4px solid #63b3ed;
+    padding-left: 10px;
+}
+
+/* TABLE */
+table {
+    width: 100%;
+}
+
+td {
+    padding: 8px;
+    border-bottom: 1px solid #1f3b57;
+}
+
+/* LIST */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    padding: 6px 0;
+}
+
+/* RESPONSIVE */
+@media (max-width: 700px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}

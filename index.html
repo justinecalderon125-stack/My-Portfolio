@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Justine Louise A. Calderon - Portfolio</title>
+
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #f4f6f9;
+        color: #333;
+    }
+
+    /* HEADER */
+    .hero {
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        border: 4px solid white;
+        object-fit: cover;
+        margin-bottom: 10px;
+    }
+
+    .hero h1 {
+        margin: 10px 0 5px;
+    }
+
+    .hero p {
+        margin: 0;
+        font-size: 16px;
+        opacity: 0.9;
+    }
+
+    /* CONTAINER */
+    .container {
+        max-width: 1000px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    /* CARD STYLE */
+    .card {
+        background: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+        color: #0077ff;
+        margin-bottom: 10px;
+    }
+
+    /* GRID */
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+
+    /* TABLE */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    td {
+        padding: 8px;
+        border-bottom: 1px solid #eee;
+    }
+
+    td:first-child {
+        font-weight: bold;
+        color: #555;
+    }
+
+    /* SKILLS */
+    ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    ul li {
+        background: #e6f2ff;
+        margin: 8px 0;
+        padding: 8px;
+        border-radius: 8px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 768px) {
+        .grid {
+            grid-template-columns: 1fr;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="hero">
+    <img src="jasten.jpg" alt="Profile Picture" class="profile-pic">
+    <h1>Justine Louise A. Calderon</h1>
+    <p>Software Engineer</p>
+</header>
+
+<!-- MAIN -->
+<main class="container">
+
+    <!-- ABOUT -->
+    <section class="card">
+        <h2>About Me</h2>
+        <p>
+            I am currently pursuing a Bachelor of Science in Information Technology at OLSHCO.
+            I became interested in coding because of games I played and watched. This inspired me
+            to learn how to create and improve digital experiences. My goal is to become an IT
+            professional who can develop meaningful and useful systems.
+        </p>
+    </section>
+
+    <!-- GRID -->
+    <div class="grid">
+
+        <!-- PERSONAL DETAILS -->
+        <section class="card">
+            <h2>Personal Details</h2>
+            <table>
+                <tr><td>Full Name</td><td>Justine Louise A. Calderon</td></tr>
+                <tr><td>Age</td><td>19</td></tr>
+                <tr><td>Email</td><td>justinecalderon125@gmail.com</td></tr>
+                <tr><td>Address</td><td>Purok Maligaya, Brgy.Nangabulan, Talugtug N.E</td></tr>
+            </table>
+        </section>
+
+        <!-- SKILLS -->
+        <section class="card">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML - Beginner</li>
+                <li>CSS - Beginner</li>
+                <li>JavaScript - Basic Knowledge</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <!-- INSPIRATION -->
+
+<section class="card">
+
+<h2>Inspiration</h2>
+
+<p>
+
+What inspires me in programming is the ability to create something useful and fun for others.
+
+I chose IT because technology connects people and makes life easier. Every project I build
+
+motivates me to learn more and improve my skills.
+
+</p>
+
+</section>
+
+</main>
+
+</body>
+
+</html>
